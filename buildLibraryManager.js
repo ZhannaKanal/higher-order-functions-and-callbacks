@@ -67,3 +67,7 @@ function getBookSummaries(catalog) {
 console.log(getBookSummaries(library))
 
 console.log("\nList of books by Arvid Kahl:\n")
+
+const getBooksByAuthor = (arrWithBookObjects, stringWithAuthor) => {
+  return arrWithBookObjects.filter(objects=> objects.author===stringWithAuthor )
+}
