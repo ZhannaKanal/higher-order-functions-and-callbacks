@@ -57,3 +57,6 @@ function getBookInformation(catalog) {
 }
 
 console.log(getBookInformation(library))
+
+console.log("\nList of book summaries:\n")
+
