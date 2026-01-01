@@ -51,3 +51,7 @@ const library = [
 ];
 
 console.log("Books in the Library:\n")
+
+const getBookInformation = catalog => {
+
+}
