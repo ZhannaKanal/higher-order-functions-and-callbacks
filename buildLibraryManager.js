@@ -71,3 +71,4 @@ console.log("\nList of books by Arvid Kahl:\n")
 const getBooksByAuthor = (arrWithBookObjects, stringWithAuthor) => {
   return arrWithBookObjects.filter(objects=> objects.author===stringWithAuthor )
 }
+console.log(getBooksByAuthor(library, "Arvid Kahl"))
