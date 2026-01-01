@@ -52,6 +52,6 @@ const library = [
 
 console.log("Books in the Library:\n")
 
-const getBookInformation = catalog => {
-
+function getBookInformation(catalog) {
+  return catalog.map((book)=>book.title);
 }
