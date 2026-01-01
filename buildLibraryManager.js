@@ -77,3 +77,7 @@ console.log("\nList of books by James Clear:\n");
 console.log(getBooksByAuthor(library, "James Clear"))
 
 console.log("\nTotal number of pages for all library books:\n")
+
+const getTotalPages = catalog => {
+  return catalog.map(book=>book.pages).reduce((acc,curr)=>(acc+curr), 0)
+}
