@@ -75,3 +75,5 @@ console.log(getBooksByAuthor(library, "Arvid Kahl"))
 
 console.log("\nList of books by James Clear:\n");
 console.log(getBooksByAuthor(library, "James Clear"))
+
+console.log("\nTotal number of pages for all library books:\n")
