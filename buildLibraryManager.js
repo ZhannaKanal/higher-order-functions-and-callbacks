@@ -60,6 +60,8 @@ console.log(getBookInformation(library))
 
 console.log("\nList of book summaries:\n")
 
-const getBookSummaries = summary => {
-  return summary.map(book => book.about)
+function getBookSummaries(catalog) {
+  return catalog.map((book) => book.about).join("\n")
 }
+
+console.log(getBookSummaries(library))
