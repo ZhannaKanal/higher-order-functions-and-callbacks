@@ -21,5 +21,7 @@ const sortByYear = (book1, book2) => {
     return 1;
   } else if (difference < 0) {
     return -1;
+  } else {
+    return 0;
   }
 };
