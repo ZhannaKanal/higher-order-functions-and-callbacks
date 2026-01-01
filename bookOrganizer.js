@@ -16,5 +16,6 @@ const books = [
   },
 ]
 const sortByYear = (book1, book2) => {
+  const difference = book1.releaseYear - book2.releaseYear;
 
 }
