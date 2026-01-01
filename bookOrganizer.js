@@ -15,3 +15,6 @@ const books = [
     releaseYear: 2010
   },
 ]
+const sortByYear = (book1, book2) => {
+
+}
