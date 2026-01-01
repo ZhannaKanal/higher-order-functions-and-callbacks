@@ -26,3 +26,5 @@ const sortByYear = (book1, book2) => {
   }
 };
 console.log(sortByYear(books[1], books[0]));
+
+books.filter(book => book.releaseYear <= 1950);
