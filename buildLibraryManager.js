@@ -60,3 +60,6 @@ console.log(getBookInformation(library))
 
 console.log("\nList of book summaries:\n")
 
+const getBookSummaries = summary => {
+  return summary.map(book => book.about)
+}
