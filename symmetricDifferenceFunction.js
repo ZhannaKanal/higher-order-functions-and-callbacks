@@ -5,6 +5,9 @@ const diffArray = (array1, array2) => {
       newArr.push(array1[i]);
     }
   }
+  for (let j = 0; j < array2.length; j++) {
+    
+  }
   return newArr;
 };
 console.log(
