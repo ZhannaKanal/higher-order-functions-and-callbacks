@@ -6,7 +6,9 @@ const diffArray = (array1, array2) => {
     }
   }
   for (let j = 0; j < array2.length; j++) {
-    
+    if (!array1.includes(array2[j])) {
+      
+    }
   }
   return newArr;
 };
