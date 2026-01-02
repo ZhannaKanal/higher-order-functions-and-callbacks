@@ -1,0 +1,3 @@
+const getIndexToIns = (array, number) => {
+  
+}
