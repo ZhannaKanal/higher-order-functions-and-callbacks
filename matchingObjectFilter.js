@@ -1,4 +1,7 @@
-const whatIsInAName = (array, sourceObject) => {};
+const whatIsInAName = (array, sourceObject) => {
+    const keys = Object.keys(sourceObject);
+   
+};
 console.log(
   whatIsInAName(
     [
