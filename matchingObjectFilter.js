@@ -18,3 +18,6 @@ console.log(
     { apple: 1, cookie: 2 }
   )
 );
+console.log(
+  whatIsInAName([{ a: 1, b: 2, c: 3, d: 9999 }], { a: 1, b: 9999, c: 3 })
+);
