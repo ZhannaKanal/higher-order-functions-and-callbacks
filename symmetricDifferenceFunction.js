@@ -13,3 +13,6 @@ console.log(
 console.log(
   diffArray(["apple", "orange"], ["apple", "orange", "banana", "grape"])
 );
+console.log(
+  diffArray([], ["apple", "banana"])
+);
