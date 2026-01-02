@@ -3,3 +3,4 @@ const getIndexToIns = (array, number) => {
   const index = sorted.findIndex((result) => result >= number);
   return index === -1 ? sorted.length : index;
 }
+console.log(getIndexToIns([], 5))
