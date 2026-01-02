@@ -10,3 +10,6 @@ console.log(
     ["diorite", "andesite", "grass", "dirt", "dead shrub"]
   )
 );
+console.log(
+  diffArray(["apple", "orange"], ["apple", "orange", "banana", "grape"])
+);
