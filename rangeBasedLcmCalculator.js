@@ -12,7 +12,7 @@ const smallestCommons = ([a, b]) => {
             }
         }
         if (ok) return num;
-       
+        num++;
     }
 };
 console.log(smallestCommons([1, 5]));
