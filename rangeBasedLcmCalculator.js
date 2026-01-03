@@ -11,6 +11,8 @@ const smallestCommons = ([a, b]) => {
                 break;
             }
         }
+        if (ok) return num;
+       
     }
 };
 console.log(smallestCommons([1, 5]));
