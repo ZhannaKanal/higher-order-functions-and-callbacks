@@ -1,4 +1,2 @@
-const smallestCommons = array => {
-
-}
-console.log(smallestCommons([1,5]))
+const smallestCommons = ([a, b]) => {};
+console.log(smallestCommons([1, 5]));
