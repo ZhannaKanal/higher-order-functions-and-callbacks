@@ -8,7 +8,7 @@ const smallestCommons = ([a, b]) => {
         for (let i = min; i <= max; i++){
             if (num % i != 0) {
                 ok = false;
-                
+                break;
             }
         }
     }
