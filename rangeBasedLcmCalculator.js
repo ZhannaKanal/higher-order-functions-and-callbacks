@@ -5,7 +5,9 @@ const smallestCommons = ([a, b]) => {
     
     while (true) {
         let ok = true;
-        
+        for (let i = min; i <= max; i++){
+            
+        }
     }
 };
 console.log(smallestCommons([1, 5]));
