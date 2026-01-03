@@ -6,7 +6,9 @@ const smallestCommons = ([a, b]) => {
     while (true) {
         let ok = true;
         for (let i = min; i <= max; i++){
-            
+            if (num % i != 0) {
+                
+            }
         }
     }
 };
