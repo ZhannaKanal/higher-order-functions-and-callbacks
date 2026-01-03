@@ -1,0 +1,3 @@
+const smallestCommons = array => {
+
+}
