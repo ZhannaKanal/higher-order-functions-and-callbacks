@@ -1,3 +1,4 @@
-const sumPrimes = number => {
+const sumPrimes = (number) => {
 
-}
+};
+console.log()
