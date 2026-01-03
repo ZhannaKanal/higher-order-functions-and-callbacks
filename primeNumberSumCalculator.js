@@ -12,5 +12,6 @@ const sumPrimes = (number) => {
       sum += i;
     }
   }
+  return sum;
 };
 console.log(sumPrimes(10));
