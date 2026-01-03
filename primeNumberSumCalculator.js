@@ -7,5 +7,8 @@ const sumPrimes = (number) => {
     return true;
   };
   let sum = 0;
+  for (let i = 0; i <= number; i++) {
+    
+  }
 };
 console.log(sumPrimes(10));
