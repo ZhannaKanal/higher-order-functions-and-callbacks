@@ -14,4 +14,4 @@ const sumPrimes = (number) => {
   }
   return sum;
 };
-console.log(sumPrimes(977));
+console.log(sumPrimes(0));
