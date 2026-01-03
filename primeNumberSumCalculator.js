@@ -7,4 +7,4 @@ const sumPrimes = (number) => {
     return true;
   };
 };
-console.log();
+console.log(sumPrimes(10))
