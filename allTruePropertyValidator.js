@@ -1,5 +1,5 @@
 function truthCheck(collection, pre) {
-  return collection.every((object) => Boolean(object[pre]));
+  return collection.every((object) => object[pre]);
 }
 
 console.log(
