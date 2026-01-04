@@ -4,7 +4,8 @@ const steamrollArray = (...array) => {
           acc.push(...steamrollArray(item))
         } else {
             acc.push(item)
-      }
+        }
+        return acc;
   }, []);
 };
 console.log(steamrollArray([1, {}, [3, [[4]]]]));
