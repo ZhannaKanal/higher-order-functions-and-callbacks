@@ -33,3 +33,13 @@ console.log(
     "data"
   )
 );
+console.log(
+  truthCheck(
+    [
+      { name: "freeCodeCamp", users: [{ name: "Quincy" }, { name: "Naomi" }] },
+      { name: "Code Radio", users: [{ name: "Camperbot" }] },
+      { name: "", users: [] },
+    ],
+    "users"
+  )
+);
