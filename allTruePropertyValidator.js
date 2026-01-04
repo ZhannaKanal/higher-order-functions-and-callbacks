@@ -1,15 +1,5 @@
 function truthCheck(collection, pre) {
-  const result = [];
-  for (let i = 0; i < collection.length; i++) {
-    result.push(collection[i][pre]);
-  }
-  for (let i = 0; i < result.length; i++) {
-    if (result[i]) {
-      return true
-    } else {
-      return false
-    }
-  }
+  for (let i = 0; i < collection.length; i++) {}
 }
 
 console.log(
