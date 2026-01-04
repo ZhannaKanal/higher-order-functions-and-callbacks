@@ -43,3 +43,12 @@ console.log(
     "users"
   )
 );
+console.log(
+  truthCheck(
+    [
+      { name: "Pikachu", number: 25, caught: 3 },
+      { name: "Togepi", number: 175, caught: 1 },
+    ],
+    "number"
+  )
+);
