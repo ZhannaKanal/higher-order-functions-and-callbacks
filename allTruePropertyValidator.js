@@ -1,5 +1,6 @@
 function truthCheck(collection, pre) {
-  const result=[]
+    const result = []
+    const val = pre;
 }
 
 truthCheck([{name: "Quincy", role: "Founder", isBot: false}, {name: "Naomi", role: "", isBot: false}, {name: "Camperbot", role: "Bot", isBot: true}], "isBot");
