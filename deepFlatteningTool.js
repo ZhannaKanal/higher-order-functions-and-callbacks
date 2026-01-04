@@ -1,5 +1,7 @@
 const steamrollArray = (...array) => {
-  array.reduce((acc, item) => {}, []);
+    array.reduce((acc, item) => {
+      if(Array.isArray(item)){}
+  }, []);
 };
 console.log(steamrollArray([1, {}, [3, [[4]]]]));
 console.log(steamrollArray([1, [2], [3, [[4]]]]));
