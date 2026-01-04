@@ -1,6 +1,6 @@
 const steamrollArray = (...array) => {
-    array.reduce((acc, item) => {
-        if (Array.isArray(item)) {
+    return array.reduce((acc, item) => {
+        if(Array.isArray(item)) {
           acc.push(...steamrollArray(item))
       }
   }, []);
