@@ -1,5 +1,9 @@
 function truthCheck(collection, pre) {
-  for (let i = 0; i < collection.length; i++) {}
+  for (let i = 0; i < collection.length; i++) {
+    if (collection[i][pre]) {
+      return true;
+    }
+  }
 }
 
 console.log(
