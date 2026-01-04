@@ -1,10 +1,10 @@
 function truthCheck(collection, pre) {
   for (let i = 0; i < collection.length; i++) {
-    if (collection[i][pre]) {
-      return true;
+    if (!collection[i][pre]) {
+      return false;
     }
   }
-  return false;
+  return ;
 }
 
 console.log(
