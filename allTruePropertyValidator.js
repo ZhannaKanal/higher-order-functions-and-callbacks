@@ -7,7 +7,9 @@ function truthCheck(collection, pre) {
   for (let i = 0; i < result.length; i++) {
     if (result[i]) {
       return true
-    } 
+    } else {
+      return false
+    }
   }
 }
 
