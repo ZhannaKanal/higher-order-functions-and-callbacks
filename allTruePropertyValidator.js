@@ -4,7 +4,9 @@ function truthCheck(collection, pre) {
   for (let i = 0; i < collection.length; i++) {
     result.push(collection[i][pre]);
   }
-  return result;
+  for (let i = 0; i < result.length; i++) {
+    
+  }
 }
 
 console.log(
